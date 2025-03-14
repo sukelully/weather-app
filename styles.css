@@ -1,0 +1,24 @@
+*,
+*:before,
+*:after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --emerald: #86cb92;
+    --mint: #71b48d;
+    --ym-blue: #404e7c;
+    --space-blue: #251f47;
+    --dark-purple: #260f26;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: var(--emerald);
+}
